@@ -6,29 +6,34 @@
 //  Copyright (c) 2015 vinny.co. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "TaskDescriptionViewController.h"
 
-@interface DetailViewController ()
+@interface TaskDescriptionViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation TaskDescriptionViewController
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem {
-  if (_detailItem != newDetailItem) {
-      _detailItem = newDetailItem;
-          
-      // Update the view.
-      [self configureView];
+- (void)setDetailItem:(Task *)newTask {
+  if (self.task != newTask) {
+    self.task = newTask;
+
+    // Update the view.
+    [self configureView];
   }
 }
 
 - (void)configureView {
   // Update the user interface for the detail item.
-  if (self.detailItem) {
-      self.detailDescriptionLabel.text = [self.detailItem description];
+  if (self.task) {
+
+    NSNumber *priorityNum = [self.task priorityNumber];
+    self.priorityLabel.text = [priorityNum stringValue];
+    self.titleLabel.text = [self.task taskTitle];
+    self.descriptionLabel.text = [self.task taskDescription];
+
   }
 }
 

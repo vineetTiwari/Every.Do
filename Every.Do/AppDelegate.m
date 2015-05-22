@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "DetailViewController.h"
+#import "TaskListViewController.h"
+#import "TaskDescriptionViewController.h"
+#import "Task.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+
+  
   return YES;
 }
 

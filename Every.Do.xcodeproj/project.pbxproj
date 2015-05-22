@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9691B5611B0E535C00B7D2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5601B0E535C00B7D2A1 /* main.m */; };
 		9691B5641B0E535C00B7D2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5631B0E535C00B7D2A1 /* AppDelegate.m */; };
-		9691B5671B0E535C00B7D2A1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5661B0E535C00B7D2A1 /* MasterViewController.m */; };
-		9691B56A1B0E535C00B7D2A1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5691B0E535C00B7D2A1 /* DetailViewController.m */; };
+		9691B5671B0E535C00B7D2A1 /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5661B0E535C00B7D2A1 /* TaskListViewController.m */; };
+		9691B56A1B0E535C00B7D2A1 /* TaskDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5691B0E535C00B7D2A1 /* TaskDescriptionViewController.m */; };
 		9691B56D1B0E535C00B7D2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9691B56B1B0E535C00B7D2A1 /* Main.storyboard */; };
 		9691B56F1B0E535C00B7D2A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9691B56E1B0E535C00B7D2A1 /* Images.xcassets */; };
 		9691B5721B0E535C00B7D2A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9691B5701B0E535C00B7D2A1 /* LaunchScreen.xib */; };
 		9691B57E1B0E535C00B7D2A1 /* Every_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B57D1B0E535C00B7D2A1 /* Every_DoTests.m */; };
+		9691B5891B0E53CF00B7D2A1 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B5881B0E53CF00B7D2A1 /* Task.m */; };
+		9691B58C1B0E606300B7D2A1 /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B58B1B0E606300B7D2A1 /* TaskTableViewCell.m */; };
+		9691B58F1B0E677A00B7D2A1 /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691B58E1B0E677A00B7D2A1 /* NewTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +36,22 @@
 		9691B5601B0E535C00B7D2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9691B5621B0E535C00B7D2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9691B5631B0E535C00B7D2A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9691B5651B0E535C00B7D2A1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9691B5661B0E535C00B7D2A1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9691B5681B0E535C00B7D2A1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		9691B5691B0E535C00B7D2A1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9691B5651B0E535C00B7D2A1 /* TaskListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
+		9691B5661B0E535C00B7D2A1 /* TaskListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
+		9691B5681B0E535C00B7D2A1 /* TaskDescriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskDescriptionViewController.h; sourceTree = "<group>"; };
+		9691B5691B0E535C00B7D2A1 /* TaskDescriptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskDescriptionViewController.m; sourceTree = "<group>"; };
 		9691B56C1B0E535C00B7D2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9691B56E1B0E535C00B7D2A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9691B5711B0E535C00B7D2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9691B5771B0E535C00B7D2A1 /* Every.DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Every.DoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9691B57C1B0E535C00B7D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9691B57D1B0E535C00B7D2A1 /* Every_DoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Every_DoTests.m; sourceTree = "<group>"; };
+		9691B5871B0E53CF00B7D2A1 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = ../Task.h; sourceTree = "<group>"; };
+		9691B5881B0E53CF00B7D2A1 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = ../Task.m; sourceTree = "<group>"; };
+		9691B58A1B0E606300B7D2A1 /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		9691B58B1B0E606300B7D2A1 /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		9691B58D1B0E677A00B7D2A1 /* NewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		9691B58E1B0E677A00B7D2A1 /* NewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +95,16 @@
 			children = (
 				9691B5621B0E535C00B7D2A1 /* AppDelegate.h */,
 				9691B5631B0E535C00B7D2A1 /* AppDelegate.m */,
-				9691B5651B0E535C00B7D2A1 /* MasterViewController.h */,
-				9691B5661B0E535C00B7D2A1 /* MasterViewController.m */,
-				9691B5681B0E535C00B7D2A1 /* DetailViewController.h */,
-				9691B5691B0E535C00B7D2A1 /* DetailViewController.m */,
+				9691B5651B0E535C00B7D2A1 /* TaskListViewController.h */,
+				9691B5661B0E535C00B7D2A1 /* TaskListViewController.m */,
+				9691B5681B0E535C00B7D2A1 /* TaskDescriptionViewController.h */,
+				9691B5691B0E535C00B7D2A1 /* TaskDescriptionViewController.m */,
+				9691B58A1B0E606300B7D2A1 /* TaskTableViewCell.h */,
+				9691B58B1B0E606300B7D2A1 /* TaskTableViewCell.m */,
+				9691B58D1B0E677A00B7D2A1 /* NewTaskViewController.h */,
+				9691B58E1B0E677A00B7D2A1 /* NewTaskViewController.m */,
+				9691B5871B0E53CF00B7D2A1 /* Task.h */,
+				9691B5881B0E53CF00B7D2A1 /* Task.m */,
 				9691B56B1B0E535C00B7D2A1 /* Main.storyboard */,
 				9691B56E1B0E535C00B7D2A1 /* Images.xcassets */,
 				9691B5701B0E535C00B7D2A1 /* LaunchScreen.xib */,
@@ -224,10 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9691B58F1B0E677A00B7D2A1 /* NewTaskViewController.m in Sources */,
+				9691B5891B0E53CF00B7D2A1 /* Task.m in Sources */,
 				9691B5641B0E535C00B7D2A1 /* AppDelegate.m in Sources */,
-				9691B5671B0E535C00B7D2A1 /* MasterViewController.m in Sources */,
+				9691B58C1B0E606300B7D2A1 /* TaskTableViewCell.m in Sources */,
+				9691B5671B0E535C00B7D2A1 /* TaskListViewController.m in Sources */,
 				9691B5611B0E535C00B7D2A1 /* main.m in Sources */,
-				9691B56A1B0E535C00B7D2A1 /* DetailViewController.m in Sources */,
+				9691B56A1B0E535C00B7D2A1 /* TaskDescriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
